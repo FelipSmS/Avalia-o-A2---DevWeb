@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: #F5DEB3;
+}
+
+
+
+/* Centralize o conteúdo dentro do header */
+.header {
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header img { 
+    height: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    background-color: #FFF5E1;
+    padding: 40px;
+    padding-right: 73%;
+    box-shadow: 0 00px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.menu li {
+    margin: 0 10px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333; /* Cor do texto do link */
+}
+
+.main h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+    margin: 50px
+    margin-top: 10px;
+
+}
+
+.anuncio {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.anuncio img{
+    width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.anuncio video{
+    width: 350px;
+}
+
+.anuncio p{
+    text-align: justify;
+    padding: 20px;
+
+
+}
+
+.anuncio li {
+    list-style-type: none;
+
+}
+
+.anuncio h3 {
+    margin: 20px;
+    font-size: xx-large;
+
+}
+
+.anuncio h4 {
+    margin: 25px;
+    font-size: xx-large;
+}
+
+.anuncio button {
+    padding: 10px 45px 10px 45px;
+    font-size: larger;
+    font-weight: 700;
+    background-color: #8B4513;
+    color: #FFF5E1;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input {
+    padding: 10px;
+
+}
+
+.form-container p {
+    margin-top: 20px;
+    margin-bottom: 1px;
+
++}
+
+
+.form-grupo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-item  {
+    flex: 1;
+}
+
+.form-item  input{
+    flex: 1;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2.5px;
+    
+}
+
+.form-item  select{
+    flex: 1;
+    padding: 10px;
+    border-style: solid;
+    border-width: 2.5px;
+    width: 210px;
+    
+}
+
+
+input[name="username"],
+select {
+    width: 300px;
+    margin-right: 10px;
+}
+
+input[name="cpf"],
+select {
+    width: 100%;
+}
+
+input[name="celular"],
+select {
+
+    margin-right: 150px;
+}
+
+
+input[name="cep"],
+select {
+   width: 85px;
+}
+
+input[name="rua"],
+select {
+   width: 362px;
+   margin-right: 100%;
+}
+
+input[name="numero"],
+select {
+    width: 80px;
+}
+
+input[name="bairro"],
+select {
+    width: 204px;
+    margin-right: 10px;
+}
+
+input[name="cidade"],
+select {
+    width: 155px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+

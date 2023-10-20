@@ -9,7 +9,16 @@
 
 .container {
     position: relative;
-    border-style: solid;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Adicione a cor de fundo desejada */
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -51,6 +60,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
+    margin-top: 180px;
 }
 
 main {
@@ -102,6 +112,108 @@ aside h2 {
 .paragrafo-main-3 img{
     width: 400px;
     margin-right: 20px;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto; 
+    max-width: 100%; 
+    padding: 10px; 
+}
+
+.container-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-body {
+    padding: 10px;
+}
+
+.menu {
+    background-color: rgb(194, 176, 149);
+    text-align: center;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.menu a {
+    margin: 0 10px; 
+    font-weight: bold;
+}
+
+.menu img{
+max-width: 100%;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-main-inside {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+    background-color: #f0ede7;
+}
+
+main h2 {
+    margin-bottom: 20px;
+}
+
+aside {
+    padding: 20px;
+    text-align: start;
+    background-color: #E3DAC9;
+}
+
+aside h2 {
+    margin-bottom: 20px;
+}
+
+.paragrafo-main-1,
+.paragrafo-main-2,
+.paragrafo-main-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+.paragrafo-main-1 img,
+.paragrafo-main-2 img,
+.paragrafo-main-3 img {
+    width: 100%; 
+    margin: 0; s
+}
+
 }
 
 

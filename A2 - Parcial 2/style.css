@@ -18,9 +18,17 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff; /* Adicione a cor de fundo desejada */
+    background-color: #fff;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 .container-body {
@@ -36,6 +44,7 @@
     align-items: center;
     text-align: center;
     padding: 5px;
+    
 }
 
 .menu a {
@@ -43,6 +52,24 @@
     font-weight: bold;
 
 }
+
+.container-button {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+button{
+    width: 300PX;
+    height: 50PX;
+    font-size: medium;
+    margin-bottom: 10px;
+    background-color: rgb(233, 205, 168);
+}
+
 
 header {
     justify-content: center;
@@ -76,10 +103,28 @@ aside {
     padding: 20px;
     text-align: start;
     background-color: #E3DAC9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.paragrafo-aside-1 {
+    align-items:start;
+    justify-content: start;
+    text-align:  start;
+    padding-left: 5px;
+}
+
+aside img{
+    margin-top: 20px;
+    max-width: 100%;
 }
 
 aside h2 {
-    margin-bottom: 20px;
+    align-items:start;
+    justify-content: start;
+    text-align:  start;
+    margin-bottom: 15px;
 }
 
 .paragrafo-main-1 {
@@ -114,12 +159,50 @@ aside h2 {
     margin-right: 20px;
 }
 
+.container-footer p{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.main-grid {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: start;
+    justify-content: space-around;
+
+}
+
+
+.grid-dupla {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-dupla img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-style: solid;
+}
+
+.grid-unica {
+    border-style: solid;
+    margin-top: 20px;
+}
+
+.grid-unica img{
+    max-width: 100%;
+}
 
 
 
 
-@media (max-width: 480px) {
-
+@media screen and (max-width: 480px) {
 
 
 * {
@@ -134,6 +217,7 @@ aside h2 {
     margin: 0 auto; 
     max-width: 100%; 
     padding: 10px; 
+    height: 100%;
 }
 
 .container-header {
@@ -145,11 +229,14 @@ aside h2 {
     z-index: 100;
     align-items: center;
     text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
     
 }
 
 .container-body {
     padding: 10px;
+    margin-top: 10%;
 }
 
 .menu {
@@ -169,7 +256,7 @@ max-width: 100%;
 
 }
 
-header {
+header ul{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,9 +298,28 @@ aside h2 {
 .paragrafo-main-2 img,
 .paragrafo-main-3 img {
     width: 100%; 
-    margin: 0; s
+    margin: 0; 
+}
+
+.container-footer p{
+    text-align: center;
+    justify-content: center;
+}
+
+.grid-dupla {
+    grid-template-columns: 1fr; /* Altera para uma única coluna */
+}
+
+.grid-dupla img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-unica {
+    margin-top: 10px; /* Ajusta a margem */
 }
 
 }
+
 
 
